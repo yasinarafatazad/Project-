@@ -1,0 +1,83 @@
+@media (max-width:630px) {
+    header{
+        position: fixed;
+        width: 100%;
+        top: 0;
+    }
+    .logo{
+    float: left;
+    height: 80px;
+    width: 40%;
+    background: #fff;
+    font-family: 'Niconne' , cursive;
+    position: relative;
+    top: 0;
+    }
+    .logo h2 {
+    font-size: 50px;
+    color: gold;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-shadow: 10px -5px 20px black;
+    }
+    .logo p{
+    display: none;
+    
+    }
+    .navbar{background: #fff;}
+    .navbar ul li a:hover {
+        /* color: #fff; */
+        background: #eeebe9;
+        
+    }
+    .navbar ul li a:active{
+        color: #4d4d4d;
+        background: #fff;
+    }
+    .gap{
+        height: 80px;
+    }
+    h1{
+        margin-bottom: 20px;
+    }
+    .nav{
+        position: relative;
+    }
+        .nav-icon-h{
+        font-size: 35px;
+        color: #0B0038;
+        position: absolute;
+        top: 50%;
+        left: 16.665%;
+        transform: translate(-50%,-50%)
+    }
+        .nav-icon-i{
+        font-size: 35px;
+        color: #0B0038;
+        position: absolute;
+        top: 50%;
+        left: 49.995%;
+        transform: translate(-50%,-50%)
+    }
+        .nav-icon-a{
+        font-size: 35px;
+        color: #0B0038;
+        position: absolute;
+        top: 50%;
+        left: 83.325%;
+        transform: translate(-50%,-50%)
+        
+    }
+    .hero {
+        height: 250px;
+        
+    }
+    .hero-image img {
+        height: 100px;
+        width: 100px;
+        
+    }
+    
+}

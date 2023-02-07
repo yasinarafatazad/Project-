@@ -1,0 +1,45 @@
+.footer-top-line{
+    margin: 0;
+    border: 1px solid black;
+    height: 4px;
+    background: #000;
+}
+footer {
+    height: 180px;
+    background: #0B0038;
+    color: #fff;
+}
+.f-logo{
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    /* background: #bdbdbd; */
+    font-family: 'Niconne' , cursive;
+    position: relative;
+}
+.f-logo h2{
+    font-size: 30px;
+    color: gold;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -5%);
+    text-shadow: 20px -10px 20px black;
+}
+.f-logo p {
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    left: 50%;
+    bottom: 2%;
+    transform: translate(-50%, -50%);
+    text-shadow: 20px -10px 20px black;
+}
+.f-line-1{
+    height: 2px;
+    background: #fff;
+    border: 1px solid #fff;
+    width: 80%;
+    margin: 0 auto;
+}

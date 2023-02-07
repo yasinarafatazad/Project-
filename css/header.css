@@ -1,0 +1,65 @@
+
+
+.logo{
+    float: left;
+    height: 80px;
+    width: 40%;
+    background: #bdbdbd;
+    font-family: 'Niconne' , cursive;
+    position: relative;
+}
+.logo h2 {
+    font-size: 30px;
+    color: gold;
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    transform: translate(-50%,-10%);
+    text-shadow: 20px -10px 20px black;
+}
+.logo p{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    left: 40%;
+    bottom: 10%;
+    transform: translate(-50%,-10%);
+    text-shadow: 20px -10px 20px black;
+}
+
+.nav{
+    width: 60%;
+    float: right;
+}
+
+.navbar{
+    background: #bdbdbd;
+    height: 80px;
+}
+.navbar ul li{
+    float: left;
+    height: 80px;
+    width:33.33%;
+}
+.navbar ul li a{
+    font-size: 14px;
+    padding: 0 10px;
+    line-height: 80px;
+    color: #000;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all linear 0.3s;
+    
+}
+.navbar ul li a:hover{
+    color: #000;
+    background: #fff;
+}
+hr{
+    height: 3px;
+    background: #777;
+    border: 1px solid #777;
+}
